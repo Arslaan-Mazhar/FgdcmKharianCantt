@@ -19,7 +19,7 @@ export function middleware(req: NextRequest) {
   // const ip = req.headers.get("x-forwarded-for") || req.ip || "Unknown IP";
 
   // If the request is coming from admin.localhost:3000, redirect to /login on the same subdomain
-  if (host.startsWith("https://admin.scbwfoundation.org")) {
+  if (host.startsWith("https://admin.fgdcmkhariancantt.org")) {
     url.pathname = "/login"; // Ensure redirection happens to /login
     return NextResponse.redirect(url);
   }
