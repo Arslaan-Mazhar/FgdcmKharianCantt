@@ -15,7 +15,7 @@ const ContactUs = () => {
   return (
     <>
       <Head>
-        <title>Contact Us - SCBW Foundation</title>
+        <title>Contact Us - FGDCM</title>
         <meta
           name="description"
           content="Reach us  through our mobile Number or email us at SCBW Foundation, our mission, vision, and the impact we're making for the blind people."
@@ -25,15 +25,15 @@ const ContactUs = () => {
       <h1 className="text-3xl font-bold mb-10 text-center">Contact Us</h1>
       <div className="flex flex-col lg:flex-row justify-between md:items-center ">
         <p className="text-primary-500 hover:font-bold ">
-          <b className="text-black">Address: </b> 3rd floor alsafa plaza near
-          sadar police station Lalamusa, Gujrat, Pakistan.{" "}
+          <b className="text-black">Address: </b> 
+         Near saddar checkpost kharian cantt.
         </p>
         <p className="text-primary-500 hover:font-bold">
-          <b className="text-black">Phone No.: </b> +92-332-9292311
+          <b className="text-black">Phone No.: </b> 0539240101
         </p>
         <p className="text-primary-500 hover:font-bold">
-          <b className="text-black">Email Address: </b>{" "}
-          scbfoundation92@gmail.com{" "}
+          <b className="text-black">Email Address: </b>
+          fgdcm@gmail.com
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-7 justify-between items-center mt-6 bg-gray-100 ">

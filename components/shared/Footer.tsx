@@ -79,7 +79,7 @@ const Footer = () => {
           <div className="container mx-auto flex flex-col items-center gap-4 md:flex-row md:justify-between">
             <p className="text-center text-sm">
               © {new Date().getFullYear()}{" "}
-              <b>Special Campaign for Blind Welfare Foundation</b> | All rights
+              <b>FG Degree College for Men (FGDCM) Kharian Cantt</b> | All rights
               reserved.
             </p>
 

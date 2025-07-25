@@ -12,57 +12,57 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SCBW Foundation</title>
+        <title>FGDCM</title>
         <meta
           name="description"
-          content="Support the welfare of the visually impaired with SCBW Foundation. Join us in our mission to make a difference."
+          content="FG Degree College for Men Kharian Cantt is serving in education sector for years. Join us in our mission to make a difference."
         />
         <meta
           property="og:title"
-          content="Special Campaign for Blinds Welfare (SCBW) Foundation"
+          content="FG Degree College for Men (FGDCM) Kharian Cantt"
         />
         <meta
           property="og:description"
-          content="Support the welfare of the visually impaired with SCBW Foundation."
+          content="Support the cause of eleviation of education with FG Degree College for Men Kharian Cantt."
         />
-        <meta property="og:image" content="/logo1.png" />
-        <meta property="og:url" content="https://scbwfoundation.org" />
+        <meta property="og:image" content="/logo1.jpeg" />
+        <meta property="og:url" content="https://fgdcm.org" />
         <meta
           name="keywords"
-          content="Blinds Welfare, visually impaired support, special campaign, charity, non-profit, disability aid, social welfare, foundation for blinds, Blind Welfare Foundation,Support for the Visually Impaired,Charity for the Blind,Donate to Blind Charities,Services for the Visually Impaired,Blindness Support Programs,Blind and Visually Impaired Assistance, Education for the Blind,Vocational Training for the Blind,Blindness Awareness Campaign,Accessible Resources for the Blind,Blind Welfare Programs,Blindness Rehabilitation Services,Community Support for the Blind, How to support blind welfare initiatives,Best charities for the blind and visually impaired,Volunteer opportunities with blind charities,Resources for families of the visually impaired,Educational programs for blind children, Blind welfare foundation in Lalamusa Gujrat pakistan,Visually impaired services near me,Local charities for the blind" />    <meta name="author" content="Blinds Welfare Foundation" />
+          content="Students, College, Higher education, University, Undergraduate programs, Online learning, Online courses, Degree in Computer Science, Major in Biology,Major in Computer,Major in English,University near me,Kharian colleges,College in Kharian,FG Degree College Kharian admissions, Education for the students" />    <meta name="author" content="FG Degree College Kharian Cantt" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@blindswelfare" />
+        <meta name="twitter:site" content="@FGCollegeKharian" />
         <meta
           name="twitter:title"
-          content="Special Campaign Blinds Welfare Foundation "
+          content="FG Degree College for Men (FGDCM) Kharian Cantt"
         />
         <meta
           name="twitter:description"
-          content="Support the Blinds Welfare Foundation in their special campaign to improve the lives of the visually impaired."
+          content="FG Degree College for Men Kharian Cantt is serving in education sector for years. Join us in our mission to make a difference."
         />
         <meta
           name="twitter:image"
-          content="https://www.scbwfoundation.org/og-image.jpg"
+          content="https://www.fgdcm.org/og-image.jpg"
         />
       </Head>
       <main>
-        <div className="flex justify-center items-center h-screen rounded-xl lg:mt-[6rem]">
+        <div className="flex justify-center items-center h-screen rounded-xl lg:mt-[7rem]">
           <ImageSlider />
         </div>
-        <div className="sm:mb-24 md:mb-0"></div>
+        <div className="sm:mb-24 md:mb-2"></div>
         <div>
           <Objectives />
         </div>
         <div className="sm:mb-24 md:mb-0">
           <About />
         </div>
-        <div className="sm:mb-12 md:mb-0">
+        {/* <div className="sm:mb-12 md:mb-0">
           <MembershipForm />
         </div>
         <div className="sm:mb-12 md:mb-0">
           <PaymentCard />
-        </div>
+        </div> */}
         {/* <div>
           <CheckoutForm />
         </div> */}

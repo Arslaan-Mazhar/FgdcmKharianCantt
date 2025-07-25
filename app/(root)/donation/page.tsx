@@ -174,19 +174,19 @@ function DonationForm() {
   return (
     <>
       <Head>
-        <title>Donate Us - SCBW Foundation</title>
+        <title>Bank Details - FGDCM</title>
         <meta
           name="description"
-          content="Help us through your donation and become permanent member of SCBW Foundation, our mission, vision, and the impact we're making for the people in need."
+          content="Help us through your assistance and become permanent member of FGDCM, our mission, vision, and the impact we're making for the students in need."
         />
       </Head>
       <div className="bg-gray-50 text-gray-900 min-h-screen">
         {/* Header */}
         <header className="hidden md:block bg-primary mx-56 text-white py-6 rounded-full">
           <div className="container mx-auto text-center">
-            <h1 className="text-3xl font-bold">Support Our Mission</h1>
+            <h1 className="text-3xl font-bold">Bank Details</h1>
             <p className="mt-2">
-              Your generosity empowers visually impaired individuals to lead independent lives.
+              Bank details of college are provided below for the students who want to pay their fee and other dues.
             </p>
           </div>
         </header>
@@ -194,37 +194,38 @@ function DonationForm() {
         {/* Donation Methods */}
         <section className="py-4 bg-white">
           <div className="container mx-auto">
-            <h2 className="text-2xl font-bold text-center mb-8">Donation Methods</h2>
+            <h2 className="text-2xl font-bold text-center mb-8">Payment Method</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {/* Bank Transfer */}
               <div className="bg-gray-50 p-6 shadow-md rounded-lg">
                 <h3 className="text-xl font-semibold">Bank Transfer</h3>
                 <p className="mt-4">
-                  <strong>Bank Name:</strong> UBL
+                  <strong>Bank Name:</strong> xxx
                   <br />
-                  <strong>Account Title:</strong> Special Campaign for Blind Welfare Foundation
+                  <strong>Account Title:</strong> FG Degree College for Men
                   <br />
-                  <strong>Branch Code:</strong> 1244
+                  <strong>Branch Code:</strong> xxxx
                   <br />
-                  <strong>Account Number:</strong> 317202269
+                  <strong>Account Number:</strong> xxxxxxxxx
                   <br />
-                  <strong>Swift Code:</strong> UNIL PKKA
+                  <strong>Swift Code:</strong> xxxxxxxxxx
                   <br />
-                  <strong>IBAN:</strong> PK52UNIL0109000317202269
+                  <strong>IBAN:</strong> PKxxxxxxxxxxxxxxx
                 </p>
               </div>
 
               {/* Online Donation */}
               <div className="bg-gray-50 p-6 shadow-md rounded-lg">
-                <h3 className="text-xl font-semibold">Online Donation</h3>
+                <h3 className="text-xl font-semibold">Online Fee Payment</h3>
                 <p className="mt-4">
-                  You can donate securely online through our payment gateway:
+                  You can pay securely online through our payment gateway:
                 </p>
                 <Button
                   onClick={handleDonateClick}
                   className="mt-4 inline-block bold px-4 py-2 text-white bg-blue-600 rounded shadow transform hover:scale-105 transition-all duration-300"
+                  disabled
                 >
-                  Donate Online
+                  Pay Online
                 </Button>
               </div>
             </div>
@@ -235,8 +236,7 @@ function DonationForm() {
         <footer className="bg-primary text-white py-6 rounded-full">
           <div className="container mx-auto text-center">
             <p>
-              Thank you for considering supporting our mission. Together, we can empower visually
-              impaired individuals and create a more inclusive society.
+              Thank you for considering supporting our mission. Together, we can empower pupils and create a more inclusive society.
             </p>
           </div>
         </footer>

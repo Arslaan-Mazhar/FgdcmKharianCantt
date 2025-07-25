@@ -1,5 +1,4 @@
 "use client"
-import { useState,useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Formik, Field, Form } from 'formik';
 import Head from 'next/head';
@@ -112,7 +111,7 @@ const AdmissionForm = () => {
             className="p-2 border border-gray-300 rounded"
             placeholder="Age"
           />
-          <Field
+          {/* <Field
             name="qualification"
             as="select"
             className="p-2 border border-gray-300 rounded"
@@ -132,7 +131,7 @@ const AdmissionForm = () => {
             name="profession"
             className="p-2 border border-gray-300 rounded"
             placeholder="Profession"
-          />
+          /> */}
           <Field
             name="otherSkills"
             className="p-2 border border-gray-300 rounded"
@@ -148,7 +147,7 @@ const AdmissionForm = () => {
             <option value="Course2">Course 2</option>
             <option value="Course3">Course 3</option>
           </Field>
-          <Field
+          {/* <Field
             name="causeOfBlindness"
             as="select"
             className="p-2 border border-gray-300 rounded"
@@ -158,7 +157,7 @@ const AdmissionForm = () => {
             <option value="Accident">Accident</option>
             <option value="Genetic">Genetic</option>
             <option value="Other">Other</option>
-          </Field>
+          </Field> */}
           <Field
             name="gender"
             as="select"
@@ -226,8 +225,6 @@ const AdmissionForm = () => {
               <li>2 Passport size pictures of the candidate</li>
               <li>Copy of CNIC or Birth Certificate</li>
               <li>Copy of Last Degree</li>
-              <li>Copy of Disability Certificate</li>
-              <li>Copies of these documents</li>
             </ul>
           </div>
     </div>

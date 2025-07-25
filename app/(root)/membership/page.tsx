@@ -75,16 +75,16 @@ export default function MembershipForm() {
   return (
     <>
       <Head>
-        <title>Membership - SCBW Foundation</title>
+        <title>Membership - FGDCM</title>
         <meta
           name="description"
-          content="Try to become our permanent member of SCBW Foundation, our mission, vision, and the impact we're making for the people in need."
+          content="Try to become our permanent member of FGDCM, our mission, vision, and the impact we're making for the students."
         />
       </Head>
       {/* Donation Options */}
       <section className="py-4 bg-gray-100">
         <div className="container mx-auto">
-          <h1 className="text-3xl font-bold text-center">Donation Membership</h1>
+          <h1 className="text-3xl font-bold text-center">FGDCM Membership</h1>
           <h2 className="text-xl font-bold mb-3 text-center my-2">
             Become our Member
           </h2>

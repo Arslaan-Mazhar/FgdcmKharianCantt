@@ -6,22 +6,18 @@ import MobileNav from "./MobileNav";
 import { SOCIALS } from "@/constants";
 import { usePathname } from "next/navigation";
 import Head from "next/head";
-import { Button } from "../ui/button";
-import { useRouter } from "next/navigation";
+
 const Header = () => {
-  const router = useRouter();
-  const handleDonateClick = () => {
-    router.push("/safePayCheckoutForm"); // Navigate to the CheckoutForm page
-  };
+
   const pathname = usePathname();
   const isHomePage = pathname === "/";
   return (
     <>
       <Head>
-        <title>Special Campaign for Blinds Welfare (SCBW) Foundation</title>
+        <title>FGDCM - Kharian Cantt </title>
         <meta
           name="description"
-          content="Support the welfare of the visually impaired with SCBW Foundation. Join us in our mission to make a difference."
+          content="Our focus is to make students motivated, studious, analytical, proactive, and focused. They are often ambitious, driven, and not afraid to take risks in their pursuit of knowledge and success. Join us in our mission to make a difference."
         />
       </Head>
       <header
@@ -30,18 +26,18 @@ const Header = () => {
         }  w-full border-b`}
       >
         <div className="flex md:items-center justify-between md:py-1 md:mb-3 rounded-full bg-blue-100">
-          <Link href="/" className=" md:32  ">
+          <Link href="/" className=" md:32 mx-auto">
             <Image
-              src="/logo1.png"
-              width={128}
-              height={38}
-              alt="SCBW Foundation logo"
+              src="/logo1.jpeg"
+              width={100}
+              height={16}
+              alt="FGDCM logo"
               objectFit="cover"
               className="rounded-full "
             />
           </Link>
           <h1 className="hidden xl:block font-bold   lg:mx-6 animate-pulse">
-            Special Campaign for Blind Welfare Foundation
+            FG Degree College for Men (FGDCM) Kharian Cantt
           </h1>
           <ul className="regular-14  xl:flex w-36 gap-1  items-center mx-auto hidden  ">
             {SOCIALS.links.map((link) => (
@@ -54,7 +50,7 @@ const Header = () => {
                   src={link.icon}
                   alt={link.label}
                   width={24}
-                  height={24}
+                  height={16}
                   className="hover:scale-110 transition-transform"
                 />
               </Link>
@@ -64,12 +60,16 @@ const Header = () => {
           <nav className="md:flex items-center justify-end gap-x-6 hidden w-full max-w-lg lg:mx-40">
             <NavItems />
           </nav>
-          <Button
-            onClick={handleDonateClick}
-            className="lg:flex items-center justify-end hidden mx-auto bold px-4 py-4 text-white bg-blue-600 rounded shadow transform hover:scale-105 transition-all duration-300"
-          >
-            Donate Online
-          </Button>
+          <Link href="/" className=" md:32  mx-auto">
+            <Image
+              src="/logo2.jpeg"
+              width={100}
+              height={16}
+              alt="FGDCM logo"
+              objectFit="cover"
+              className="rounded-full "
+            />
+          </Link>
           <div className="lg:hidden m-7">
             <MobileNav />
           </div>
