@@ -18,10 +18,7 @@ interface AdmissionDataType {
   qualification: string;
   courseName: string;
   otherSkills: string;
-  profession: string;
-  islamicEducation: string;
   religion: string;
-  causeOfBlindness: string;
   address: string;
   city: string;
   district: string;
@@ -164,10 +161,8 @@ const AdmissionListing = () => {
                   { label: "Qualification:", value: selectedRecord.qualification },
                   { label: "Course Name:", value: selectedRecord.courseName },
                   { label: "Other Skills:", value: selectedRecord.otherSkills },
-                  { label: "Profession:", value: selectedRecord.profession },
-                  { label: "Islamic Education:", value: selectedRecord.islamicEducation },
+
                   { label: "Religion:", value: selectedRecord.religion },
-                  { label: "Cause of Blindness:", value: selectedRecord.causeOfBlindness },
                   { label: "Address:", value: selectedRecord.address },
                   { label: "City:", value: selectedRecord.city },
                   { label: "District:", value: selectedRecord.district },
