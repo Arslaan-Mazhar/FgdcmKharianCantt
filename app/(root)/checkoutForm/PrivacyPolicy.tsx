@@ -20,8 +20,7 @@ const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onClose }) => {
       <div className="text-sm text-gray-700">
         <h2 className="text-lg font-semibold text-center">Privacy Policy</h2>
         <p>
-                This Privacy Policy describes how Special Campaign for Blind
-                Welfare Foundation collects, uses, and protects the personal
+                This Privacy Policy describes how <b>FG Degree College for Men (FGDCM) Kharian Cantt</b> collects, uses, and protects the personal
                 information you provide on our website.
               </p>
               <h3 className="mt-4 font-semibold">1. Information We Collect</h3>

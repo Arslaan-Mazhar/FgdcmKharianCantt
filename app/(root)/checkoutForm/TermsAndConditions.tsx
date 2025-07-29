@@ -20,7 +20,7 @@ const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onClose }) => {
       <div className="text-sm text-gray-700">
         <h2 className="text-lg font-semibold text-center">Terms and Conditions</h2>
         <h3 className="mt-4 font-semibold">1. Introduction</h3>
-              <p>Welcome to Special Campaign for Blind Welfare Foundation. These Terms and Conditions govern your use of our website www.scbwfoundation.org...</p>
+              <p>Welcome to <b>FG Degree College for Men (FGDCM) Kharian Cantt</b>. These Terms and Conditions govern your use of our website www.FGDCMKharianCantt.org...</p>
 
               <h3 className="mt-4 font-semibold">2. Acceptance of Terms</h3>
               <p>By using our Site, you confirm that you accept these Terms and agree to comply with them...</p>
@@ -32,7 +32,7 @@ const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onClose }) => {
               <p>We do not guarantee that our Site, or any content on it, will always be available...</p>
 
               <h3 className="mt-4 font-semibold">5. Donations</h3>
-              <p>Donations made to Special Campaign for Blind Welfare Foundation through the website are voluntary and non-refundable.We ensure that your donation is used effectively to support our mission and objectives.</p>
+              <p>Donations made to FG Degree College for Men (FGDCM) Kharian Cantt through the website are voluntary and non-refundable.We ensure that your donation is used effectively to support our mission and objectives.</p>
               
               <h3 className="mt-4 font-semibold text-justify">6.  Intellectual Property Rights</h3>
               <p>We are the owner or the licensee of all intellectual property rights in our Site, and in the material published on it. These works are protected by copyright laws and treaties around the world. All such rights are reserved. You may print off one copy, and may download extracts, of any page(s) from our Site for your personal use and you may draw the attention of others within your organization to content posted on our Site.</p>
@@ -68,10 +68,10 @@ const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onClose }) => {
               <p>These Terms are governed by and construed in accordance with the laws of Pakistan. Any disputes relating to these Terms will be subject to the exclusive jurisdiction of the courts of Pakistan.</p> 
               <h3 className="mt-4 font-semibold">11.  Contact Us</h3>
               <p>If you have any questions about these Terms, please contact us at:</p> 
-              <span><b><i>Special Campaign for Blind Welfare Foundation</i></b> </span> <br />
-              <span><b><i>3rd floor alsafa plaza near sadar police station Lalamusa, Gujrat, Pakistan.</i></b> </span> <br />
-              <span><b><i> scbfoundation92@gmail.com</i></b> </span> <br />
-              <span><b><i>+92-332-9292311</i></b> </span> <br />          
+              <span><b><i>FG Degree College for Men (FGDCM) Kharian Cantt</i></b> </span> <br />
+              <span><b><i> Near Sadar Checkpost Kharian Cantt, Gujrat, Pakistan.</i></b> </span> <br />
+              <span><b><i> FGDCMKharianCantt@gmail.com</i></b> </span> <br />
+              <span><b><i>+92-301-6239844</i></b> </span> <br />          
       </div>
     </div>
   );
