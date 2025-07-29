@@ -40,7 +40,7 @@ const About = () => {
         <div className="flex flex-col gap-3 md:flex-row items-stretch justify-center ">
           <div className="p-3 w-full md:w-1/2  bg-white border border-gray-500 rounded-lg shadow-2xl  hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <Image
-              src="/images/p1.jpg"
+              src="/images/pp1.jpg"
               width={400}
               height={200}
               alt="About Us"
@@ -57,7 +57,7 @@ const About = () => {
           </div>
           <div className="p-5 w-full md:w-1/2  bg-white  md:h-full border border-gray-500 rounded-lg shadow-2xl hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <Image
-              src="/images/p2.jpg"
+              src="/images/pp2.jpg"
               width={400}
               height={200}
               alt="About Us"
@@ -75,7 +75,7 @@ const About = () => {
         <div className="flex flex-col gap-3 md:flex-row items-stretch justify-center my-5 lg:h-[27rem]">
           <div className="flex-none w-full hidden xl:block xl:w-1/3 ">
             <Image
-              src="/images/p4.jpg"
+              src="/images/pp4.jpg"
               width={800}
               height={100}
               alt="About Us"
